@@ -1,0 +1,95 @@
+/* styles.module.css */
+.form {
+    width: 100%;
+}
+
+.button_container {
+    background-color: var(--primary-white);
+    width: 100%;
+    height: 10vh;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.button {
+    background-color: var(--primary-grey);
+    color: var(--primary-white);
+    height: 2rem;
+    border-radius: 4px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.icon {
+    color: var(--primary-white);
+    margin-right: 4px;
+}
+
+.text {
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+
+/* styles.module.css */
+.forms {
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+.bd_title{
+    padding: 6px;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.headerCell {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid var(--grey-line);
+}
+.center{
+    text-align: center;
+}
+.row{
+    height: 6px;
+}
+.dataCell {
+    padding: 10px;
+    border-bottom: 1px solid var(--grey-line);
+}
+
+.actionCell {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid var(--grey-line);
+}
+
+.actionLink {
+    text-decoration: none;
+}
+
+.red{
+    color: var(--red);
+}
+
+.green{
+    color: var(--green);
+}
+
+
+
+/* Ajoutez d'autres styles selon vos besoins */
